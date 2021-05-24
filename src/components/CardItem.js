@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function CardItems(props) {
+function CardItem(props) {
   return (
     <div>
       <li className="cards__item">
@@ -30,4 +30,4 @@ function CardItems(props) {
   );
 }
 
-export default CardItems;
+export default CardItem;

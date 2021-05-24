@@ -1,19 +1,19 @@
 import React from "react";
 import "../App.css";
-import "./Section.css";
 import { Button } from "./Button";
+import "./Section.css";
 
 function Section() {
   return (
     <div className="hero-container">
-      <video
-        src="/video/video-1.mp4"
+      {/* <video
+        src="/videos/video-1.mp4"
         autoPlay
         loop
         muted
-      />
-      <h1> ADVENTURE AWAITS </h1>
-      <p> What are you waiting for? </p>
+      /> */}
+      <h1>ADVENTURE AWAITS</h1>
+      <p>What are you waiting for?</p>
       <div className="hero-btns">
         <Button
           className="btns"
@@ -28,7 +28,7 @@ function Section() {
           buttonSize="btn--large"
           onClick={console.log("hey")}
         >
-          WATCH TRAILER
+          WATCH TRAILER{" "}
           <i className="far fa-play-circle" />
         </Button>
       </div>
